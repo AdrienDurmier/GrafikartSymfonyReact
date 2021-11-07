@@ -16,3 +16,6 @@ import './js/doclinks.js';
 
 // start the Stimulus application
 import './bootstrap';
+
+// Components
+import './js/comments/Comment.jsx';

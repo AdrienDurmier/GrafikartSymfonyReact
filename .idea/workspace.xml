@@ -2,19 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ebadef-dbe0-4376-a8bc-3a84e5770cb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Api/CommentCreateController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Api/EmptyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/CommentVoter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/data/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/comments/Comment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/comments/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/169.61570d43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/169.8ccdf84f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/498.3bafb5f9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/755.f5cf308f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/755.f5cf308f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/919.63ff4a5d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/919.63ff4a5d.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/95.ce62c8da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/admin.587634ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/admin.691f9b8c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.993b7531.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.ac992678.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.329a95a9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.89a52ae1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.9e138496.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.c1210e5e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.1017bce8.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.36722648.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.4079ae2d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.68c5af1f.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.07c3313b.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.ada6e6df.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.c6ec0800.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.efbd5d20.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold-italic.3e6b9980.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold-italic.e48918f9.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold.21b3848a.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold.89b61808.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal-italic.62a9c838.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal-italic.bb5de40e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal.1d2ca94d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal.75614cfc.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-brands-400.216edb96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-regular-400.19e27d34.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-solid-900.13de59f1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/login.395771d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/runtime.96aa4ea2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/search.e48a4b69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +226,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636229157475</updated>
-      <workItem from="1636229158695" duration="6805000" />
+      <workItem from="1636229158695" duration="12981000" />
     </task>
     <servers />
   </component>
