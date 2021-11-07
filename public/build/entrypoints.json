@@ -5,12 +5,12 @@
         "http://localhost:8080/build/runtime.js",
         "http://localhost:8080/build/vendors-node_modules_jquery_dist_jquery_js-node_modules_webpack-dev-server_client_index_js_pr-5fb9aa.js",
         "http://localhost:8080/build/vendors-node_modules_core-js_internals_add-to-unscopables_js-node_modules_core-js_internals_a-dd2802.js",
-        "http://localhost:8080/build/vendors-node_modules_core-js_modules_es_string_iterator_js-node_modules_core-js_modules_es_st-cb0c96.js",
-        "http://localhost:8080/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap-sass_assets-8e5f96.js",
+        "http://localhost:8080/build/vendors-node_modules_core-js_internals_string-trim_js-node_modules_core-js_modules_es_string_-aefe71.js",
+        "http://localhost:8080/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap-sass_assets-ca91c6.js",
         "http://localhost:8080/build/app.js"
       ],
       "css": [
-        "http://localhost:8080/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap-sass_assets-8e5f96.css",
+        "http://localhost:8080/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap-sass_assets-ca91c6.css",
         "http://localhost:8080/build/app.css"
       ]
     },
@@ -38,7 +38,7 @@
         "http://localhost:8080/build/runtime.js",
         "http://localhost:8080/build/vendors-node_modules_jquery_dist_jquery_js-node_modules_webpack-dev-server_client_index_js_pr-5fb9aa.js",
         "http://localhost:8080/build/vendors-node_modules_core-js_internals_add-to-unscopables_js-node_modules_core-js_internals_a-dd2802.js",
-        "http://localhost:8080/build/vendors-node_modules_core-js_modules_es_string_iterator_js-node_modules_core-js_modules_es_st-cb0c96.js",
+        "http://localhost:8080/build/vendors-node_modules_core-js_internals_string-trim_js-node_modules_core-js_modules_es_string_-aefe71.js",
         "http://localhost:8080/build/search.js"
       ]
     }
