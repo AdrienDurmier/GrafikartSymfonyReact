@@ -36,9 +36,10 @@ class CommentVoter extends Voter
     protected function voteOnAttribute(string $attribute, $comment, TokenInterface $token): bool
     {
         $user = $token->getUser();
+        dd('refdsfdfsdfsdfdsflmdkfjkdsf');
 
         if (!$user instanceof User || !$comment instanceof Comment) {
-            //return false;
+            return false;
         }
 
         return $user === $comment->getAuthor();

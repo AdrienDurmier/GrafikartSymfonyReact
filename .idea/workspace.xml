@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4ebadef-dbe0-4376-a8bc-3a84e5770cb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/comments/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/comments/Comment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/CommentVoter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/CommentVoter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636229157475</updated>
-      <workItem from="1636229158695" duration="24989000" />
+      <workItem from="1636229158695" duration="25600000" />
     </task>
     <servers />
   </component>

@@ -41,11 +41,11 @@ use Symfony\Component\Validator\Constraints as Assert;
  *              "normalization_context"={"groups"={"read:comment", "read:full:comment"}},
  *          },
  *          "put"={
- *              "security"="is_granted('EDIT_COMMENT', object)",
+ *              "security"="is_granted('ROLE_USER', object)",
  *              "denormalization_context"={"groups"={"update:comment"}}
  *          },
  *          "delete"={
- *              "security"="is_granted('EDIT_COMMENT', object)",
+ *              "security"="is_granted('ROLE_USER', object)",
  *          }
  *     }
  * )
